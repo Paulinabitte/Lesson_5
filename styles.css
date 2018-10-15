@@ -1,0 +1,29 @@
+h1, p, .brim-lines, .brim-columns {
+	font-family: tahoma, sans-serif;
+	font-weight: 400;
+}
+h1, p, .table-chessBoard {
+	text-align: center;
+}
+td img {
+	vertical-align: bottom;
+	height: 48px;
+}
+.table-chessBoard {
+	margin: auto;
+	width: 40%;
+	border-collapse: collapse;
+}
+.cell-field {
+	height: 50px;
+	width: 50px;
+	background-color: #FEF5E9;
+}
+.black {
+	background-color: #240404;
+}
+.brim-lines, .brim-columns {
+	vertical-align: middle;
+	background-color: #fff;
+	color: #777;
+}
